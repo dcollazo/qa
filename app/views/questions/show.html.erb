@@ -1,0 +1,9 @@
+<% provide(:title, 'View Question') %>
+
+<h1>
+	<%= @question.user.username.capitalize %> asked: 
+</h1>
+
+<p>
+  <%= @question.body %>
+</p>
